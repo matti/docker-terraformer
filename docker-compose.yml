@@ -2,6 +2,7 @@ version: '3'
 
 services:
   terraformer:
+    build: .
     volumes:
       - ./app:/app
       - ./generated:/work/generated
